@@ -1,0 +1,391 @@
+body{
+    font-family: Poppins;
+    width: 80%;
+    height: 100%;
+
+    position: relative;
+    left: 10%;
+}
+h1{
+    
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: relative;
+    left: 8%;
+}
+#top{
+    background-color: red;
+    height: 100px;
+    width: 100%;
+    position: static;
+}
+#logo{
+    position: absolute;
+    left: 110px;
+    top: 28px;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: aliceblue;
+}
+#logohead{
+        width: 35px;
+        height: 47px;
+        font-family: Poppins;
+        font-size: 33px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.52;
+        letter-spacing: normal;
+        text-align: left;
+        color: #eb2929;
+    position: relative;
+    left: 120px;
+    top: 26px;
+}
+#logoimg{
+    border-radius: 30px;
+}
+#signup{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    
+}
+#login{
+    color: white;
+    font-size: large;
+    border: none;
+    background-color: red;
+    border-radius: 2px;
+}
+#sign{
+    color: white;
+    font-size:large;
+    border: 2px solid white;
+    border-radius: 5px;
+
+    padding: 15px 10px 15px 10px;
+    background-color: red;
+}
+#bot{
+    
+    height:600px ;
+    width: 100%;
+    background-color: #ffffff;
+    position: static;
+
+}
+#h1{
+    width: 500px;
+    height: 40px;
+    
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 500px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: relative;
+    left: 10px;
+}
+#left{
+   
+    
+    height:90%;
+    width: 35%;
+    position:absolute ;
+    float: left;
+   }
+#left1{
+    
+    color: #192f60;
+    font-weight: 300;
+    
+    font-size: large;
+    position: inherit;
+    left: 30px;
+}
+select{
+    width: 208px;
+    height: 35px;
+    margin: 11px 0 22px 1px;
+    padding: 8px 16.7px 7px 15px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    font-family: inherit;
+}
+ 
+#right
+{ position: absolute;
+    float :right;
+    right: 0px;
+width: 60%;
+height: inherit;
+}
+#right1{
+    
+        width: 100%;
+        height: 250px;
+        
+        padding: 25px 32.6px 20px 35px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+#img1{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border-radius: 20px;
+}
+.chill{
+    
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+}
+.fort{
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: absolute;
+    left: 210px;
+    top: 40px;
+    
+}
+.shop1{
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    position: absolute;
+    left: 210px;
+    top: 60px;
+}
+hr{
+    opacity: 0.5;
+}
+.hr{
+    position: relative;
+    top:125px;
+}
+#cuisine{
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    position: absolute;
+    top:175px;
+    float: left;
+}
+#bakery{
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: absolute;
+    top: 170px;
+    left: 210px;
+}
+  #right2 {
+    width: 100%;
+    height: 250px;
+    
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    
+  }
+  #img2{
+    position: inherit;
+    top: 25px;
+    left: 25px;
+    border-radius: 20px;
+  }
+  .bak{
+    
+  font-size: 30px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;  
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+.fort1{
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: absolute;
+    left: 210px;
+    top: 340px;
+}
+.shop2{
+    
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    position: absolute;
+    left: 210px;
+    top: 360px;
+}
+#cuisine1{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+    position: absolute;
+    top:470px;
+    float: left;
+}
+#bakery1{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: absolute;
+    top:465px;
+    left: 210px;
+}
+  #right3{
+    width: 100%;
+    height: 100px;
+     
+  }
+  #table{
+      position: relative;
+      left: 30%;
+      top: 20px;
+     
+  }
+ td{
+     font-size: large;
+    width: 5px;
+  height: auto;
+ 
+  opacity: 0.9;
+  border-radius: 7px;
+  border: solid 2px #8c96ab;
+  background-color: #ffffff;
+}
+#td1{
+    position: relative;
+    left: -30px;
+    font-size: x-large;
+    padding: 5.2px 9.5px 5.5px 10.3px;
+    opacity: 0.4;
+    color: #636f88;
+}
+#td2{
+    position: relative;
+    left: -20px;
+    font-size: x-large;
+    padding: 5.2px 12.5px 5.5px 15.3px;
+    background-color: #636f88;
+    color: #ffffff;
+}
+#td3{
+    opacity: 0.8;
+    position: relative;
+    left: -10px;
+    font-size: x-large;
+    color: #636f88;
+    padding: 5.2px 9.5px 5.5px 10.3px;
+    
+}
+#td4{
+    opacity: 0.8;
+    position: relative;
+    left: 0px;
+    font-size: x-large;
+    color: #636f88;
+    padding: 5.2px 9.5px 5.5px 10.3px;
+    
+}
+#td5{
+    opacity: 0.8;
+    position: relative;
+    left: 10px;
+    font-size: x-large;
+    padding: 5.2px 9.5px 5.5px 10.3px;
+    color: #636f88;
+}
+#td6{
+    opacity: 0.8;
+    position: relative;
+    left: 20px;
+    font-size: x-large;
+    padding: 5.2px 9.5px 5.5px 10.3px;
+    color: #636f88;
+    
+}
+#td7{
+    opacity: 0.8;
+    position: relative;
+    left: 30px;
+    font-size: x-large;
+    padding: 5.2px 8.5px 5.5px 10.3px;
+    color: #636f88;
+    
+}
+

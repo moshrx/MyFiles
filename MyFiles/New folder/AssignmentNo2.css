@@ -1,0 +1,94 @@
+.bg-img{
+    background-image: linear-gradient(to bottom, rgba(157, 14, 14, 0), #4f0707),url(../images/foods.png);
+    height: 480px;
+    background-position: center;
+}
+.imgp{
+    border-radius: 90px;
+    width: 140px;
+    height: 140px;
+}
+.head1{
+    font-family: poppins;
+    font-size: 30px;
+    color: #ffffff;
+    }
+.Bangaluru{
+    width: 245px;
+    height: 60px;
+    margin: 38px 21px 0 6px;
+    background-color: #ffffff;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 200;
+    }  
+    .menu{
+        width: 245px;
+        height: 160px;
+        
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+    .a{ width: 477px;
+        height: 60px;
+        margin: 38px 210px 0 21px;
+        padding: 21px 249px 18px 24px;
+        background-color: #ffffff;
+        border: 1px solid white;
+        
+    }
+    .b{
+       
+        
+        padding: 21px 249px 18px 24px;
+        width: 477px;
+        height: 55px;
+        font-family: Poppins;
+        font-size: 300px;
+        border:none;
+    }
+    .quick{
+        width: 300px;
+        height: 43px;
+        font-size: 35px;
+        margin-top: 30px;
+        font-family: Poppins;
+        font-weight: 500;
+        color: #192f60;
+    }
+    .break{
+        width: 88px;
+  height: 25px;
+  margin: 25px 49px 4px 29px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+    }
+    .hello{
+        width: 137px;
+  height: 62px;
+  margin: 4px 0 44px 29px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #8c96ab;
+    }
+
+    .box{
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+    }
+
+
+  
