@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment No3</title>
+</head>
+<body>
+    <form name="cityform" action="" onsubmit="return filterRestaurantByCity()" method="POST">
+        City<input type="text" name="Cityname"/><br/>
+        Submit<input type="submit" value="submit"/>
+    </form>
+    <h1>Hello</h1>
+    
+</body>
+
+<script>
+        
+    class RestaurantManager{
+        constructor(city){
+            this.city=city;
+           }
+      var restaurantList = [
+      {name:"Indian Dhaba",address:"ssh",city:"pune"},
+      {name:"punjabi Dhaba",address:"asdasd",city:"banglore"},
+      {name:"Nepali Dhaba",address:"Fas",city:"Mumbai"},
+      {name:"ads",address:"asd",city:"asd"}
+      ]; 
+  
+      var restlength=restaurantList.length;
+  var printAllRestaurantNames = function() {
+    
+      var i;
+      for (i=0;i<restlength;i++){
+          console.log(this.restaurantList[i].name);
+      }
+  
+      
+      
+   
+  }
+  let cityname= document.forms["cityform"] ["Cityname"].value;
+  var filterRestaurantByCity=function(city){
+  var j;
+  
+  for(j=0;j<restlength;j++){
+      if(restaurantList[j].city==cityname){
+          console.log(restaurantList[j]);
+      }
+  }
+  
+  }
+  }
+  </script>
+  
+</html>

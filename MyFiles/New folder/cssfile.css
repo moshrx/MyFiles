@@ -85,16 +85,14 @@ h1{
 }
 #h1{
     width: 500px;
-    height: 40px;
+    height: 35px;
     
     font-family: Poppins;
-    font-size: 40px;
-    font-weight: 500px;
+    font-size: 35px;
+    font-weight: 400px;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.53;
     letter-spacing: normal;
-    text-align: left;
     color: #192f60;
     position: relative;
     left: 10px;
@@ -113,7 +111,8 @@ h1{
     font-weight: 300;
     
     font-size: large;
-    position: inherit;
+    position: relative;
+    top: 5px;
     left: 30px;
 }
 select{

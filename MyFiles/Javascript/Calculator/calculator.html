@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+<body>
+    <h2 id="num1"></h2>
+    <h2 id="num2"></h2>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Substract</button><br/>
+    <button onclick="mul()">Multiply</button>
+    <button onclick="div()">Divide</button>
+<br/>
+    <h2 id="asmd"> </h2>
+</body>
+<script>
+    let a=10;
+    let b=5;
+    let num1=document.getElementById("num1");
+    num1.innerText=a;
+    let num2=document.getElementById("num2");
+    num2.innerText=b;
+
+  function add(){
+    let add=a+b;
+    document.getElementById("asmd").textContent="Sum of the number is :" + add;
+  }
+  function sub(){
+      console.log("ok")
+    let sub=a-b;
+    document.getElementById("asmd").textContent="Difference of the number is :" + sub;
+  }
+  function mul(){
+    let mul=a*b;
+    document.getElementById("asmd").textContent="Multiply of the number is :" + mul;
+  }
+  function div(){
+    let div=a/b;
+    document.getElementById("asmd").textContent="Division of the number is :" + div;
+  }
+
+  function hello(p1,p2){
+      return p1+p2;
+  }
+  console.log(hello("hello ","im good"));
+</script>
+</html>

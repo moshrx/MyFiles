@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: green;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                font-style:bold;
+                color:white;
+                font-weight: bold;
+            }
+            h1{
+                color:darkgoldenrod;
+                
+            }
+            .mess{
+                font-style: italic;
+            }
+            .start{
+                width: 100px;
+                height: 30px;
+                color:#016f32;
+                font-weight: bold;
+                background-color: goldenrod;
+                border:solid black 1px;
+                font-weight: bold;
+                border-radius: 2px;
+                
+            }
+            .newcard{
+                margin-top: 3px;
+                width: 100px;
+                height: 30px;
+                color:#016f32;
+                font-weight: bold;
+                background-color: goldenrod;
+                border:solid black 1px;
+                font-weight: bold;
+                border-radius: 2px;
+                
+            }  
+       </style>
+    </head>
+
+<body>
+    <h1>
+        BLACK JACK
+    </h1>
+    <p class="mess"  id="message-el">Want to play a round?</p>
+    <p class="mess" id="cards-el">Cards:</p>
+    <p class="mess" id="sum-el">Sum: </p>
+    <br/>
+    <button onclick="startGame()" class="start">Start Game</button><br/>
+    <button onclick="newCard()" class="newcard">New Card</button>
+    <p id="player-el"></p>
+</body>
+<script src="./cards1.js">
+</script>
+</html>

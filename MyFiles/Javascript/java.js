@@ -228,3 +228,54 @@ class Hello{
 var iams=new Hello("iam","good");
 document.getElementById("add16").innerHTML=iams.good_();
 
+var dtr;
+function f_name(){
+  dtr=setInterval(function()
+  {
+    alert("I will alert you for every 5 seconds");
+  }
+  ,5000);
+
+}
+function f1_name(){
+
+  clearInterval(dtr);
+}
+var gdt;
+function f2_name(){
+  dtr=setTimeout(function()
+  {
+    alert("I will alert you for every 5 seconds");
+  }
+  ,5000);
+
+}
+function f3_name(){
+
+  clearTimeout(gdt);
+}
+/*
+
+:
+function setCookie() {
+   if(document.forms["myform"]["myinput"].value == "")
+    { alert("Enter some Value !!!!!!"); return;
+   }
+     cvalue = document.forms["myform"]["myinput"].value; 
+
+
+document.cookie = "Name=" + cvalue; document.write(cvalue); }
+
+
+
+
+<body> <form name="myform">
+ <input type="text" name="myinput"/> 
+ <input type="button" onclick="setCookie();">
+ Click Here</input>
+  </form> 
+ <h1>Welcome</h1>
+  <script src="./index.js">
+ </script>
+  </body>
+*/ 
